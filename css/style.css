@@ -29,3 +29,17 @@
     left: 30px;
     border-radius: 15px;
 }
+#searchIcon img {
+    width: 15px;
+    top: 2px;
+    left: 157px;
+}
+#searchIcon img, #searchIcon input{
+    position: absolute;
+
+}
+
+#searchIcon {
+    position: relative;
+
+}
