@@ -42,3 +42,26 @@
 #parent {
     display: flex;
 }
+
+#window {
+    width: 100px;
+}
+
+#slider {
+    overflow: hidden;
+    display: flex;
+}
+
+#slider img {
+    transform: translateX(0px);
+    animation: move 3s infinite;
+}
+
+@keyframes move {
+    from{
+        transform: translateX(0px);
+    }
+    to {
+        transform: translateX(-200px);
+    }
+}
